@@ -7,3 +7,6 @@ def traverse(arr):
         print(i)
         
 traverse(arr)
+
+#Time Complexity: O(n)
+#Space Complexity: O(1)
