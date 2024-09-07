@@ -6,7 +6,7 @@ print(two_d_array)
 newArray = np.insert(two_d_array, 0, [[10, 11, 12]], axis=1)
 print(newArray)
 
-newArray1 = np.insert(two_d_array, 0, [[10, 11, 12]], axis=0)
+newArray1 = np.insert(two_d_array, 3, [[10, 11, 12]], axis=0)
 print(newArray1)
 
 #Time Complexity: O(n*m)
