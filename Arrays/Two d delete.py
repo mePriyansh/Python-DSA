@@ -10,4 +10,4 @@ newarr1=np.delete(two_d_array, 0, axis=1)
 print(newarr1)
 
 #Time complexity: O(n^2)/O(m*n)
-#Space complexity: O(1)
+#Space complexity: O(m*n)
