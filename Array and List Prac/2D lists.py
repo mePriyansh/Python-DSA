@@ -21,3 +21,6 @@ def diagonal_sum(matrix):
 myList2D= [[1,2,3],[4,5,6],[7,8,9]] 
  
 print(diagonal_sum(myList2D))
+
+#Time complexity: O(n)
+#Space complexity: O(1)
