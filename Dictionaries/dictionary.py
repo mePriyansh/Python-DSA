@@ -22,3 +22,7 @@ dict5 = dict(my_tuple)
 print(dict5)
 #Time complexity: O(n)
 #Space complexity: O(n)
+
+#To access a particular element in the dictionary
+my_dict={'name':'Jack','age':26,'address':'Downtown','degree':'Masters'}
+print(my_dict['name'])
