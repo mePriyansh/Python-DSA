@@ -27,16 +27,6 @@ print("Given dictionary")
 print(my_dict)
 print("\nCheck if all keys are True in my_dict: ", all(my_dict))
 
-print("\nnew dictionary")
-my_dict1 = {1: 'apple', False: 'False', 3: 'cat', 4: 'dog'}
-print(my_dict1)
-print("\nCheck if all keys are True in my_dict: ", all(my_dict1))
-
-print("\nnew dictionary")
-my_dict2 = {0: 'abc'}
-print(my_dict2)
-print("\nCheck if all keys are True in my_dict: ", all(my_dict2))
-
 #any() function can be used to check if any of the keys are True and returns True if any of the keys are True else False
 print("\nany() function")
 print("given dictionary")
