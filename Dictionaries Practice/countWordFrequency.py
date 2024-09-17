@@ -30,3 +30,6 @@ def count_word_frequency(words):
 
 words = ['apple', 'orange', 'banana', 'apple', 'orange', 'apple']
 print(count_word_frequency(words))
+
+#Time complexity: O(n)
+#Space complexity: O(n)
