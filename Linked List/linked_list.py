@@ -5,3 +5,7 @@ class Node:
         
 new_node = Node(10)
 print(new_node)
+
+
+#Time Complexity: O(1)
+#Space Complexity: O(1)
