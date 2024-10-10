@@ -63,17 +63,14 @@ class LinkedList:
             temp_node.next = new_node
         self.length += 1
         return True
-    
-            
-    def search(self,search):
-        current = self.head
-        index=0
-        while current:
-            if current.value == search:
-                return index
-            current = current.next
-            index+=1
-        return -1
+
+    def get(self,index):
+        if index<0 or index>=self.length:
+            return None
+        temp_node = self.head
+        for _ in range(index):
+            temp_node = temp_node.next
+        return temp_node.value
     
     #Time complexity: O(n)
     #Space complexity: O(1)
@@ -84,4 +81,4 @@ new_linked_list.append(20)
 new_linked_list.append(30)
 new_linked_list.append(40)
 print(new_linked_list)
-print(new_linked_list.search(30))
+print(new_linked_list.get(2))
