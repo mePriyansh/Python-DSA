@@ -65,7 +65,9 @@ class LinkedList:
         return True
 
     def get(self,index):
-        if index<0 or index>=self.length:
+        if index==-1:
+            return self.tail.value
+        elif index<-1 or index>=self.length:
             return None
         temp_node = self.head
         for _ in range(index):
