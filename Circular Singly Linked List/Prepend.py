@@ -47,6 +47,8 @@ class CSLinkedList:
             self.head=new_node
             self.tail.next=self.head
         self.length+=1
+    #Time complexity: O(1)
+    #Space complexity: O(1)
         
 cslinkedlist=CSLinkedList()
 cslinkedlist.prepend(10)
