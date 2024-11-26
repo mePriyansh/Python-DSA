@@ -74,9 +74,17 @@ class CSLinkedList:
             new_node.next=temp_node.next
             temp_node.next=new_node
         self.length+=1
-        
-        #Time complexity: O(n)
-        #Space complexity: O(1)
+    
+    def traverse(self):
+        temp_node=self.head
+        while temp_node is not None:
+            print(temp_node.value)
+            temp_node=temp_node.next
+            if temp_node==self.head:
+                break
+            
+    #Time complexity: O(n)
+    #Space complexity: O(1)
         
 cslinkedlist=CSLinkedList()
 cslinkedlist.insert(0,10)
@@ -89,3 +97,4 @@ cslinkedlist.insert(3,30)
 print(cslinkedlist)
 cslinkedlist.insert(0,0)
 print(cslinkedlist)
+cslinkedlist.traverse()
