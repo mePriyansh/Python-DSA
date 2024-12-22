@@ -6,6 +6,8 @@ class Node:
     
     def __str__(self):
         return str(self.value)
+    #Time complexity: O(1)
+    #Space complexity: O(1)
 
 class DoublyLinkedList:
     #No elements in the list
@@ -20,6 +22,8 @@ class DoublyLinkedList:
         self.head = newNode
         self.tail = newNode
         self.length = 1
+    #Time complexity: O(1)
+    #Space complexity: O(1)
         
 d_linked_list = DoublyLinkedList(10)
 print(d_linked_list.head.value)
