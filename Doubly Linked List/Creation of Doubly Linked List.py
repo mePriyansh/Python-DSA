@@ -24,6 +24,15 @@ class DoublyLinkedList:
         self.length = 1
     #Time complexity: O(1)
     #Space complexity: O(1)
+    
+    def __str__(self):
+        temp_node=self.head
+        result=''
+        while temp_node is not None:
+            result += str(temp_node.value)
+            if temp_node.next is not None:
+                result += ' <-> '
+            temp_node = temp_node.next
         
 d_linked_list = DoublyLinkedList(10)
 print(d_linked_list.head.value)
