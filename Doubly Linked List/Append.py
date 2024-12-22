@@ -28,4 +28,5 @@ class DoublyLinkedList:
                 
 d_linked_list = DoublyLinkedList()
 d_linked_list.append(10)
+d_linked_list.append(20)
 print(d_linked_list.head.value)
