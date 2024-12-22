@@ -33,6 +33,7 @@ class DoublyLinkedList:
             if temp_node.next is not None:
                 result += ' <-> '
             temp_node = temp_node.next
+        return result
         
 d_linked_list = DoublyLinkedList(10)
 print(d_linked_list.head.value)
