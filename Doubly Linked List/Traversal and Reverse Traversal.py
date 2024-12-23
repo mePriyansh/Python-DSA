@@ -56,6 +56,14 @@ class DoublyLinkedList:
             current_node=current_node.next
     #Time complexity: O(n)
     #Space complexity: O(1)
+    
+    def rev_traversal(self):
+        current_node=self.tail
+        while current_node:
+            print(current_node.value)
+            current_node=current_node.prev
+    #Time complexity: O(n)
+    #Space complexity: O(1)
         
                 
 d_linked_list = DoublyLinkedList()
